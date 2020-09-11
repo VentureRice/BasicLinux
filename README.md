@@ -14,3 +14,7 @@ ls -l *.csv
 ls -l my_sr[ai]pt
 ls -l my_sr[a-i]pt
 ```
+创建空文件
+```shell
+touch test
+```

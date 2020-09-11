@@ -44,3 +44,20 @@ rmdir test
 ```shell
 rm -rf test
 ```
+查看文件类型
+```shell
+file my_file
+```
+查看文件内容
+```shell
+cat my_file
+cat -n my_file # 带行数
+```
+查看尾部内容
+```shell
+tail my_file
+```
+
+
+
+

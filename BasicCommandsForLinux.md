@@ -57,7 +57,29 @@ cat -n my_file # 带行数
 ```shell
 tail my_file
 ```
+查看头部内容
+```shell
+head -5 my_file
+```
 
+## 监测程序
+探查进程
+```shell
+ps
+```
+关闭进程
+```shell
+kill pid
+```
+查看磁盘空间
+```shell
+df
+```
+查看大文件
+```shell
+du -h # 显示文件大小
+du -c # 显示文件总大小
+```
 
 
 

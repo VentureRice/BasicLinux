@@ -11,4 +11,6 @@ cd filename
 查找csv结尾的文件
 ```shell
 ls -l *.csv
+ls -l my_sr[ai]pt
+ls -l my_sr[a-i]pt
 ```

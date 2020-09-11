@@ -1,7 +1,14 @@
 # BasicLinux
 ## 文件和目录列表
-
+查看当前路径
 ```shell
-ls -a
-
+pwd
+```
+进入文件
+```shell
+cd filename
+```
+查找csv结尾的文件
+```shell
+ls -l *.csv
 ```

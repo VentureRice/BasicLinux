@@ -24,7 +24,23 @@ cp src dst
 cp -i src dst #(overwrite)
 cp -R test_one/ test_three
 ```
+文件重命名
+```shell
+mv test_one test
+```
+文件删除
+```shell
+rm -i test
+```
 创建目录
 ```shell
 mkdir test
+```
+删除空目录
+```shell
+rmdir test
+```
+删除目录下所有内容
+```shell
+rm -rf test
 ```

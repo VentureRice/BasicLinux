@@ -80,6 +80,14 @@ df
 du -h # 显示文件大小
 du -c # 显示文件总大小
 ```
-
-
+搜索数据
+```shell
+grep pattern file
+grep -c pattern file # 计数
+```
+压缩文件
+```shell
+gzip my* # 批量压缩
+zip -r dir.zip dir
+```
 

@@ -90,4 +90,20 @@ grep -c pattern file # 计数
 gzip my* # 批量压缩
 zip -r dir.zip dir
 ```
-
+查看历史命令
+```shell
+history
+```
+数组变量
+```shell
+$ myset=(one two three)
+$ echo $myset
+one
+$ echo $myset[1]
+one[1]
+$ echo ${myset[1]}
+two
+$ echo ${myset[*]}
+one two three
+unset myset[1] # 删除元素
+```

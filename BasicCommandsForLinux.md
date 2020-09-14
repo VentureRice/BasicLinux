@@ -107,3 +107,14 @@ $ echo ${myset[*]}
 one two three
 unset myset[1] # 删除元素
 ```
+查看变量内容
+```shell
+echo $variable
+```
+vim编辑器
+```shell
+:s/old/new/ # 替换一个单词
+:s/old/new/g # 替换所有old
+:n,ms/old/new/g # 替换n行和m行之间的单词
+:%s/old/new/g # 替换所有old
+```

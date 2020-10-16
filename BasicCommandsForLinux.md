@@ -118,3 +118,15 @@ vim编辑器
 :n,ms/old/new/g # 替换n行和m行之间的单词
 :%s/old/new/g # 替换所有old
 ```
+查看GPU使用情况
+```shell
+nvidia-smi
+```
+后台运行程序
+```shell
+nohup xxx &
+```
+关闭程序
+```shell
+kill -9 PID # PID通过ps -a查看
+```

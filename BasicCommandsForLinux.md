@@ -130,3 +130,9 @@ nohup xxx &
 ```shell
 kill -9 PID # PID通过ps -a查看
 ```
+防火墙
+```shell
+firewall-cmd --zone=public --add-port=8888/tcp --permanent  # 打开端口
+firewall-cmd --reload  # 重新加载生效
+firewall-cmd --zone=public --list-ports  # 查看打开端口
+```

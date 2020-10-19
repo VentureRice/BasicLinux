@@ -64,8 +64,16 @@ head -5 my_file
 
 ## 监测程序
 探查进程
+
+a:显示所有程序 
+
+u:以用户为主的格式来显示 
+
+x:显示所有程序，不以终端机来区分
 ```shell
 ps
+ps -a
+ps -aux|grep python
 ```
 关闭进程
 ```shell
